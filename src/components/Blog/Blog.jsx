@@ -2,7 +2,6 @@ import PropTypes from 'prop-types'; // ES6
 import { FaBookmark } from "react-icons/fa";
 
 const Blog = ({ blog, handleAddToBookmarks, handleMarkAsRead }) => {
-    console.log(blog);
     const { title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
     return (
         <div className='space-y-6'>

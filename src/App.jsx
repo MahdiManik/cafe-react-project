@@ -15,7 +15,6 @@ function App() {
 
 
   const [readingTime, setReadingTime] = useState(0);
-  console.log(readingTime);
   const handleMarkAsRead = time => {
     const newReadingTime = readingTime + time
     setReadingTime(newReadingTime)
